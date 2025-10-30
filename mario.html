@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mario Bros - Nivel Estático</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #5c94fc;
+      font-family: sans-serif;
+    }
+    .nivel {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+      height: 100vh;
+      background-image: url('https://i.imgur.com/3eZ3Z9A.png'); /* cielo estilo Mario */
+      background-size: cover;
+    }
+    .bloque {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://i.imgur.com/1X4hYQh.png'); /* bloque estilo Mario */
+      background-size: cover;
+      margin: 2px;
+    }
+    .mario {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://i.imgur.com/2yZVZ7y.png'); /* sprite de Mario */
+      background-size: cover;
+      margin: 2px;
+    }
+    .suelo {
+      width: 100%;
+      height: 60px;
+      background-image: url('https://i.imgur.com/9z3Z3Z3.png'); /* suelo estilo Mario */
+      background-size: repeat-x;
+    }
+    h1 {
+      text-align: center;
+      color: white;
+      padding: 10px;
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌟 Mario Bros - Nivel Estático</h1>
+  <div class="nivel">
+    <div class="bloque"></div>
+    <div class="bloque"></div>
+    <div class="mario"></div>
+    <div class="bloque"></div>
+    <div class="bloque"></div>
+    <div class="bloque"></div>
+    <div class="bloque"></div>
+    <div class="bloque"></div>
+    <div class="bloque"></div>
+    <div class="suelo"></div>
+  </div>
+</body>
+</html>
